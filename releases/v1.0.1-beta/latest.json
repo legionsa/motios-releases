@@ -1,0 +1,19 @@
+{
+  "version": "1.0.1-beta",
+  "notes": "- Sign-in works again. The 1.0.0 builds shipped without the backend configuration, so an existing account was treated as a new one and sign-in fell back to an empty local store.\n- Release builds now stop before publishing when that configuration is missing, instead of shipping a broken app.\n- The update offer is correct: this beta is numbered above 1.0.0, so an installed 1.0.0 is offered the update instead of ignoring it as a downgrade.\n- The changelog is shown in the app when an update is available.",
+  "pub_date": "2026-09-29T08:26:33.030Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSVpmNENtMVBYZlZyalgyMWQxVkRreFRkdzV6ZGs1T3lUYUtxYmJCaU94aDNDMWxNZVM3cXIvQXlzeWltdlp2ZTVnd3pId1dyalNIREdnc0dnRzBQMkRCYStzOXNKZkFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNjcwMzkyCWZpbGU6TW90aW9zLmFwcC50YXIuZ3oJdmVyc2lvbjoxLjAuMS1iZXRhCmc3TWQ4eUhDeUxnL1ZZNW1rU0hBT1hQS1dETXBsY1hvZWRLdkM5TVFMa052L2R1NTNqNXROS0wrNzdJL2R5eWJJTk9DaVlDSmNHK0pSbzBnSG9SQ0N3PT0K",
+      "url": "https://github.com/legionsa/motios-releases/releases/latest/download/Motios-mac-universal.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSVpmNENtMVBYZlZyalgyMWQxVkRreFRkdzV6ZGs1T3lUYUtxYmJCaU94aDNDMWxNZVM3cXIvQXlzeWltdlp2ZTVnd3pId1dyalNIREdnc0dnRzBQMkRCYStzOXNKZkFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNjcwMzkyCWZpbGU6TW90aW9zLmFwcC50YXIuZ3oJdmVyc2lvbjoxLjAuMS1iZXRhCmc3TWQ4eUhDeUxnL1ZZNW1rU0hBT1hQS1dETXBsY1hvZWRLdkM5TVFMa052L2R1NTNqNXROS0wrNzdJL2R5eWJJTk9DaVlDSmNHK0pSbzBnSG9SQ0N3PT0K",
+      "url": "https://github.com/legionsa/motios-releases/releases/latest/download/Motios-mac-universal.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSVpmNENtMVBYZlFnbUdjc3dCUENlUmtpN3ZkTzRveWtKcUZkaVc1OW1vN0gxUGxYVlY1S2dTWUlmTFd1NnJ4cGdxWGR3WjBnYnY0VlFBV1F2akNsaDJMNTNTMWdmeVFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNjcwNDYyCWZpbGU6TW90aW9zXzEuMC4xLWJldGFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjEuMC4xLWJldGEKZTRBeVdZV3BjR3JiYkNHaHFrSTA3ems3dzBHRHhGTnpQcGVneHpJSWRURUZML2dkZXdaNDR0VE1WTy9mYzN4K1NpeE5zaDJxaFRkNkdnY1o5cjNGQ0E9PQo=",
+      "url": "https://github.com/legionsa/motios-releases/releases/latest/download/Motios-windows-x64-setup.exe"
+    }
+  }
+}
